@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df58223bc224c2ca91683c413feb1dc, type: 3}
+  m_Name: SmokidBackground
+  m_EditorClassIdentifier: 
+  products:
+  - {fileID: 24274152568215688, guid: d50acc24f40749d4d97b0a2cfb33a4d2, type: 3}
+  - {fileID: 24274152568215688, guid: 754b485e1a1d32949a1fbc4aedd5fe0f, type: 3}
+  - {fileID: 24274152568215688, guid: e9345a8ba52523946b13299280a8049f, type: 3}
+  intervalWidth: 6

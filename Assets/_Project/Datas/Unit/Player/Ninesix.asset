@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8b3abaafd6435ab72b74aaa09846b2, type: 3}
+  m_Name: Ninesix
+  m_EditorClassIdentifier: 
+  nameCode: ninesix
+  unitPrefab: {fileID: 2454977209418835758, guid: 533b1c1249122c14ca000406bbfa08e6, type: 3}
+  unitBaseData:
+    maxHp: 300
+    damage: 0
+    armor: 0
+    moveSpeed: 2
+    attackMinRange: 0
+    attackMaxRange: 0
+    attackSpeed: 1
+    skillRate: 0
+    projectileSpeed: 1
+    impaleCount: 0
+    size: 0
+  perUpgradeData:
+    maxHp: 0
+    damage: 0
+    armor: 0
+    moveSpeed: 0
+    attackMinRange: 0
+    attackMaxRange: 0
+    attackSpeed: 0
+    skillRate: 0
+    projectileSpeed: 0
+    impaleCount: 0
+    size: 0
+  hpBarSize: 2
+  hpBarOffset: {x: 0, y: 3.75}
+  icon: {fileID: 21300000, guid: aaf46a1f2bb8f084ea17d90cbce72be3, type: 3}
+  cooldown: 1
+  cost: 3
+  spawnOffset: {x: 0, y: 0, z: 0}
+  moveAnimation: 1
+  attackAnimation: 11
+  skillAnimation: 11

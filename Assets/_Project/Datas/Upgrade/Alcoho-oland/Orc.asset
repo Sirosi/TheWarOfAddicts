@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9ba4e2dd3c4ee788443e74a20f933a, type: 3}
+  m_Name: Orc
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: c5f17eba0caae984a8b2099458439628, type: 3}
+  nameCode: "\uC624\uD06C"
+  upgradeCode: unitUpgradeLevels
+  subCode: orc
+  prices: 0a000000140000001e00000028000000320000003c0000004600000050000000

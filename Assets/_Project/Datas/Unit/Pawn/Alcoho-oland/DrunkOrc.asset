@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8b3abaafd6435ab72b74aaa09846b2, type: 3}
+  m_Name: DrunkOrc
+  m_EditorClassIdentifier: 
+  nameCode: drunkOrc
+  unitPrefab: {fileID: 5171817777358165873, guid: 4910083fad166e04487e872b25186cea, type: 3}
+  unitBaseData:
+    maxHp: 100
+    damage: 10
+    armor: 2
+    moveSpeed: 1
+    attackMinRange: 0
+    attackMaxRange: 6
+    attackSpeed: 0.5
+    skillRate: 0.1
+    projectileSpeed: 5
+    impaleCount: 0
+    size: 5
+  perUpgradeData:
+    maxHp: 5
+    damage: 2
+    armor: 0
+    moveSpeed: 0.1
+    attackMinRange: 0
+    attackMaxRange: 0.25
+    attackSpeed: 0.1
+    skillRate: 0.1
+    projectileSpeed: 0.5
+    impaleCount: 0
+    size: 0
+  hpBarSize: 1.5
+  hpBarOffset: {x: 0, y: 2.25}
+  icon: {fileID: 21300000, guid: aaf46a1f2bb8f084ea17d90cbce72be3, type: 3}
+  cooldown: 20
+  cost: 50
+  spawnOffset: {x: 0, y: 0, z: 0}
+  moveAnimation: 1
+  attackAnimation: 11
+  skillAnimation: 11

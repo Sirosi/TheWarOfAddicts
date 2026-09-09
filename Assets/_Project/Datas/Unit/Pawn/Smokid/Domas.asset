@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8b3abaafd6435ab72b74aaa09846b2, type: 3}
+  m_Name: Domas
+  m_EditorClassIdentifier: 
+  nameCode: domas
+  unitPrefab: {fileID: 7966669471761610406, guid: 3774efe55348cc941ad0f9aa1bd7a9ec, type: 3}
+  unitBaseData:
+    maxHp: 350
+    damage: 0
+    armor: 5
+    moveSpeed: 7
+    attackMinRange: 0
+    attackMaxRange: 0
+    attackSpeed: 1
+    skillRate: 0
+    projectileSpeed: 1
+    impaleCount: 0
+    size: 5
+  perUpgradeData:
+    maxHp: 0
+    damage: 0
+    armor: 0
+    moveSpeed: 0
+    attackMinRange: 0
+    attackMaxRange: 0
+    attackSpeed: 0
+    skillRate: 0
+    projectileSpeed: 0
+    impaleCount: 0
+    size: 0
+  hpBarSize: 6
+  hpBarOffset: {x: -3, y: 3}
+  icon: {fileID: -2010742333, guid: 3807002e5afe93d498bc8e56df0b52d7, type: 3}
+  cooldown: 30
+  cost: 50
+  spawnOffset: {x: 0, y: -0.5, z: 0}
+  moveAnimation: 1
+  attackAnimation: 10
+  skillAnimation: 11

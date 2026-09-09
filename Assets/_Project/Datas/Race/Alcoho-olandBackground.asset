@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df58223bc224c2ca91683c413feb1dc, type: 3}
+  m_Name: Alcoho-olandBackground
+  m_EditorClassIdentifier: 
+  products:
+  - {fileID: 24274152568215688, guid: cdbb725775cdfec4daf4c44aac9a1764, type: 3}
+  - {fileID: 24274152568215688, guid: 161195906f893cc4897477c692741ade, type: 3}
+  - {fileID: 24274152568215688, guid: 9a75a53565a1d1b42b03f7397d894b98, type: 3}
+  intervalWidth: 6

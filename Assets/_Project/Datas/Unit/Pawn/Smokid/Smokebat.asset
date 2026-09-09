@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8b3abaafd6435ab72b74aaa09846b2, type: 3}
+  m_Name: Smokebat
+  m_EditorClassIdentifier: 
+  nameCode: smokebat
+  unitPrefab: {fileID: 7683007093818389463, guid: 640a17baca1d5e54683e821e885caaf0, type: 3}
+  unitBaseData:
+    maxHp: 50
+    damage: 10
+    armor: 2
+    moveSpeed: 1.25
+    attackMinRange: 0
+    attackMaxRange: 8
+    attackSpeed: 0.8
+    skillRate: 0.1
+    projectileSpeed: 8
+    impaleCount: 0
+    size: 5
+  perUpgradeData:
+    maxHp: 0
+    damage: 0
+    armor: 0
+    moveSpeed: 0
+    attackMinRange: 0
+    attackMaxRange: 0
+    attackSpeed: 0
+    skillRate: 0
+    projectileSpeed: 0
+    impaleCount: 0
+    size: 0
+  hpBarSize: 1.5
+  hpBarOffset: {x: 0, y: 2.25}
+  icon: {fileID: 21300000, guid: 057ea61e55a9b4247b7365adfbbcf59e, type: 3}
+  cooldown: 5
+  cost: 25
+  spawnOffset: {x: 0, y: 0, z: 0}
+  moveAnimation: 1
+  attackAnimation: 50
+  skillAnimation: 50

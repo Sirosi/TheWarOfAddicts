@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8b3abaafd6435ab72b74aaa09846b2, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  nameCode: goblin
+  unitPrefab: {fileID: 2929494884233246977, guid: de2a453189a3f6c4f9f1e35c5987a735, type: 3}
+  unitBaseData:
+    maxHp: 50
+    damage: 5
+    armor: 1
+    moveSpeed: 1.5
+    attackMinRange: 0
+    attackMaxRange: 1.5
+    attackSpeed: 1
+    skillRate: 0.1
+    projectileSpeed: 1
+    impaleCount: 0
+    size: 5
+  perUpgradeData:
+    maxHp: 10
+    damage: 1
+    armor: 0
+    moveSpeed: 0.5
+    attackMinRange: 0
+    attackMaxRange: 0.2
+    attackSpeed: 0.1
+    skillRate: 0.05
+    projectileSpeed: 0
+    impaleCount: 0
+    size: 0
+  hpBarSize: 1.5
+  hpBarOffset: {x: 0, y: 2.25}
+  icon: {fileID: 21300000, guid: 5f62cd01165379e478d4af731b291e15, type: 3}
+  cooldown: 1
+  cost: 10
+  spawnOffset: {x: 0, y: 0, z: 0}
+  moveAnimation: 1
+  attackAnimation: 10
+  skillAnimation: 20

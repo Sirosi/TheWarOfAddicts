@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1f2639da1d45b0a386e0c0409d936e, type: 3}
+  m_Name: Alcoho-olandData
+  m_EditorClassIdentifier: 
+  raceType: 0
+  backgroundData: {fileID: 11400000, guid: fff3091277b523341a9f66cb52946875, type: 2}
+  playerUnit: {fileID: 11400000, guid: d87467c92791c214e96c7fbbd84b8c1b, type: 2}
+  canUpgradePlayer: 0
+  hasUnitLimit: 0
+  canUseDeck: 1
+  raceUnits:
+  - {fileID: 11400000, guid: 0ef4d57f11ad4e84397f64c2e729027c, type: 2}
+  - {fileID: 11400000, guid: 5ca66d02b9b41094b81c4c6ed20c9001, type: 2}
+  - {fileID: 11400000, guid: fbb7fac7fbaec834684ad80d6dd29685, type: 2}
+  - {fileID: 11400000, guid: b2fa60edfe2859b4f8b5e9641c2793d9, type: 2}
+  - {fileID: 11400000, guid: 4c22f16403aae8f48b43ac803dbe10b2, type: 2}
+  - {fileID: 11400000, guid: 9173de7a546903b40b20a654294a87f0, type: 2}
+  - {fileID: 11400000, guid: 557a2fa9eb2e32c41a0287e8222f5735, type: 2}
+  - {fileID: 11400000, guid: bb9bbb1f153364344b9887f28cf05787, type: 2}
+  raceWeapons:
+  - {fileID: 11400000, guid: cb88c869df9933443b7b58cc4b7c5a12, type: 2}
+  - {fileID: 11400000, guid: 41a8fb59cd980e642a89aa52c5787d30, type: 2}
+  initialData:
+    money: 100
+    firstDeck:
+    - {fileID: 11400000, guid: b2fa60edfe2859b4f8b5e9641c2793d9, type: 2}
+    firstWeapons:
+    - {fileID: 11400000, guid: 41a8fb59cd980e642a89aa52c5787d30, type: 2}
